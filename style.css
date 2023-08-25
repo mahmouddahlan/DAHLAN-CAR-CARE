@@ -1,0 +1,499 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700');
+@import url("https://fonts.googleapis.com/css?family=Metal+Mania");
+
+@font-face {
+    font-family: "Booter - Zero Zero";
+    src: url("Fonts/Booter - Zero Zero.woff") format("woff"),
+         url("Fonts/Booter - Zero Zero.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+    font-family:'Courier New', Courier, monospace; 
+    color: black;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    
+}
+
+.nav ul {
+    margin: 0;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    padding: 1.5em;
+    color: black;
+    text-decoration: none;
+}
+.main-nav {
+    text-align: center;
+    font-size: 1.7em;
+    color: BLACK;
+    font-weight: lighter;
+    
+}
+
+.main-nav li {
+    padding: 0 5%;
+}
+
+.main-header {
+    background-color: rgb(249, 246, 246);
+    background-size: cover;
+    padding-bottom: 10px;
+}
+
+
+.band-name {
+    text-align: center;
+    margin: 0;
+    font-size: 3.4em;
+    font-family:'Courier New', Courier, monospace; 
+    font-weight:400;
+    color: black;
+    font-size: 3em;
+}
+
+.band-name-large {
+    font-size: 6em;
+}
+
+.content-section {
+    margin: 1em;
+}
+.content-one{
+    background-color: black;
+}
+
+.container { 
+    margin: 0 auto;
+    padding: 0 1.5em;
+    
+}
+.container-color{
+background-color: white;
+}
+
+.section-header {
+    font-family:'Courier New', Courier, monospace; 
+    font-weight:350;
+    color: black;
+    text-align: center;
+    font-size: 2.5em;
+}
+.text-color{
+    color:white;
+}
+
+.about-band-image {
+    float: left;
+    height: 200px;
+    margin: 15px;
+    border-radius: 25%;
+}
+
+.main-footer {
+    background-color: rgb(249, 246, 246);
+    color: black;
+    padding: .25em 0;
+}
+
+.main-footer-container {
+    display: flex;
+    align-items: center;
+}
+
+.main-footer-container ul {
+    flex-grow: 1;
+    text-align: end;
+}
+.contact-info{
+    font-family:'Courier New', Courier, monospace; 
+    text-align:center;
+    font-weight: normal;
+    font-size: 28px;
+}
+
+.footer-nav li {
+    padding: 0 .5em;
+}
+
+.footer-nav img {
+    width: 30px;
+    height: 5%;
+}
+
+.btn {
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em .67em;
+    cursor: pointer;
+}
+
+.btn-header {
+    margin: .5em 15% 2em 15%;
+    color: white;
+    border: 2px solid #2D9CDB;
+    background-color: white;
+    border-radius: 0;
+    font-size: 1.5em;
+    font-weight: lighter;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.btn-header:hover {
+    background-color: rgba(255, 255, 255, 0.14);
+}
+
+.btn-play {
+    display: block;
+    margin: 0 auto;
+    color: #2D9CDB;
+    font-size: 4em;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    padding: 0;
+    text-align: center;
+}
+
+.btn-primary {
+    color: white;
+    background-color: #56CCF2;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: #2D9CDB;
+}
+
+.tour-row {
+    border-bottom: 1px solid black;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+}
+
+.tour-row:last-child {
+    border: none;
+}
+
+.tour-item {
+    display: inline-block;
+    padding-right: .5em;
+}
+
+.tour-date {
+    color: black;
+    width: 11%;
+    font-weight: bold;
+}
+
+.tour-city {
+    width: 24%;
+}
+
+.tour-arena {
+    width: 42%;
+}
+
+.tour-btn {
+    max-width: 19%;
+}
+
+.shop-item {
+    margin: 30px;
+    color:black;
+}
+
+.shop-item-title {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: 250;
+    font-size: 1.6em;
+    color: black;
+    margin-bottom: 15px;
+    font-family:'Courier New', Courier, monospace; 
+}
+.description-color{
+    color:rgb(217, 191, 191);
+}
+.shop-item-titles {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: normal;
+    font-size: 1.2em;
+    color: black;
+    margin-bottom: 15px;
+}
+
+.shop-item-image {
+ 
+    width:350px;
+    height:250px;
+    border-radius: 10px;
+}
+.car-image{
+    height:350px;
+    width: 290px;
+    border-radius: 10px;
+}
+
+.shop-item-details {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.shop-item-price {
+    flex-grow: 1;
+    color: black;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.shop-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.cart-header {
+    font-weight: bold;
+    font-size: 1.25em;
+    color: white;
+}
+
+.cart-column {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid white;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.cart-row {
+    display: flex;
+}
+
+.cart-item {
+    width: 45%;
+}
+
+.cart-price {
+    width: 20%;
+    font-size: 1.2em;
+    color: black;
+}
+
+.cart-quantity {
+    width: 35%;
+}
+
+.cart-item-title {
+    color: black;
+    margin-left: .5em;
+    font-size: 1.2em;
+}
+
+.cart-item-image {
+    width: 75px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.btn-danger {
+    color: white;
+    background-color: #EB5757;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+
+.btn-danger:hover {
+    background-color: #CC4C4C;
+}
+
+.cart-quantity-input {
+    height: 34px;
+    width: 50px;
+    border-radius: 5px;
+    border: 1px solid #56CCF2;
+    background-color: #eee;
+    color: black;
+    padding: 0;
+    text-align: center;
+    font-size: 1.2em;
+    margin-right: 25px;
+}
+
+.cart-row:last-child {
+    border-bottom: 1px solid black;
+}
+
+.cart-row:last-child .cart-column {
+    border: none;
+}
+
+.cart-total {
+    text-align: end;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.cart-total-title {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: black;
+    margin-right: 20px;
+}
+
+.cart-total-price {
+    color: white;
+    font-size: 1.1em;
+}
+
+.btn-purchase {
+    display: block;
+    margin: 40px auto 80px auto;
+    font-size: 1.75em;
+}
+.paragraph{
+    font-size: 24px;
+    font-family:'Courier New', Courier, monospace; 
+    font-weight: normal;
+}
+.logo{
+    width:450px;
+    height:400px;
+}
+.body-color{
+    background-color: white;
+}
+
+#portfolio{
+    padding:10px 0;
+    
+    }
+.work-list{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(25px, 1fr));
+    grid-gap: 40px;
+    margin-top:50px;
+    color:white;
+}
+.work{
+    border-radius:10px;
+    position:relative;
+    overflow:hidden;
+    color:white;
+
+}
+.work img{
+    width:150%;
+    height:100%;
+    border-radius : 10px;
+    display:block;
+    transition: transform 0.5s;
+}
+.layer{
+    width:100%;
+    height:0;
+    background: linear-gradient(rgba(0,0,0,0.6), #9d1515);
+    border-radius: 10px;
+    position:absolute;
+    left:0;
+    bottom:0;
+    overflow: hidden;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding:0 40px;
+    text-align: center;
+    font-size:14px;
+    transition: height 0.5s;
+}
+.layer a{
+    margin-top:20px;
+    color: #195ea9;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 60px;
+    background: #fff;
+    width:60px;
+    height:60px;
+    border-radius: 50%;
+    text-align: center;
+
+}
+.work:hover img{
+    transform: scale(1.1);
+    }
+    .work:hover .layer{
+        height:100%;
+    }
+    .btn{
+        display:block;
+        margin:50px auto;
+        width:fit-content;
+        border:1px solid #195ea9;
+        padding: 14px 50px;
+        border-radius:6px;
+        text-decoration: none;
+        color:#fff;
+        transition: background 0.5s;
+    }
+    .btn:hover{
+        background: #195ea9;
+    }
+    .logos{
+        border-radius: 25px;
+    }
+
+
+
+    nav ul li{
+        display: inline-block;
+        list-style: none;
+        margin: 10px 20px;
+    }
+    nav ul li a{
+        color:#fff;
+        text-decoration: none;
+        font-size: 23px;
+        position:relative;
+    }
+    nav ul li a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background:#9d1515;
+    position:absolute;
+    left:0;
+    bottom:-6px;
+    transition: 0.5s;
+    
+    }
+    nav ul li a:hover::after{
+        width:100%;
+    }
+    .text-color{
+        COLOR:BLACK;
+    }
