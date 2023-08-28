@@ -1,6 +1,5 @@
 # DAHLAN-CAR-CARE
-Duration: [Start Date] - [End Date]
-Description: As a software engineering student with a passion for automotive detailing, I embarked on creating a comprehensive website for my own automotive detailing business, "Dahlan Car Care". The website serves as an interactive platform for clients to explore our services, learn about our team, and get in touch. Leveraging my HTML and CSS skills, I meticulously designed and developed the entire front-end of the website to ensure a user-friendly experience and showcase the artistry of our work.
+As a software engineering student with a passion for automotive detailing, I embarked on creating a comprehensive website for my own automotive detailing business, "Dahlan Car Care". The website serves as an interactive platform for clients to explore our services, learn about our team, and get in touch. Leveraging my HTML and CSS skills, I meticulously designed and developed the entire front-end of the website to ensure a user-friendly experience and showcase the artistry of our work.
 
 Technologies: HTML, CSS
 
